@@ -8,7 +8,7 @@ const Projects = () => {
     useEffect(() => {
         const fetchRepositories = async () => {
             try {
-                const response = await fetch('https://api.github.com/users/samenezes/repos');
+                const response = await fetch('https://api.github.com/users/Jvl17/repos');
                 if (!response.ok) {
                     throw new Error('Failed to fetch repositories');
                 }
